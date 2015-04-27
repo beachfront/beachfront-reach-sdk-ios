@@ -16,10 +16,6 @@
 		5F25A09F194B6FA000728B7C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F25A09D194B6FA000728B7C /* Main_iPhone.storyboard */; };
 		5F25A0A5194B6FA000728B7C /* BFMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25A0A4194B6FA000728B7C /* BFMViewController.m */; };
 		5F25A0A7194B6FA000728B7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F25A0A6194B6FA000728B7C /* Images.xcassets */; };
-		5F25A0AF194B6FA000728B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25A08B194B6FA000728B7C /* Foundation.framework */; };
-		5F25A0B0194B6FA000728B7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25A08F194B6FA000728B7C /* UIKit.framework */; };
-		5F25A0B8194B6FA000728B7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F25A0B6194B6FA000728B7C /* InfoPlist.strings */; };
-		5F25A0BA194B6FA000728B7C /* BFReachSDKExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25A0B9194B6FA000728B7C /* BFReachSDKExampleTests.m */; };
 		5FBF9B2919548B990071C5C9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */; };
 		5FBF9B331954921D0071C5C9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B321954921D0071C5C9 /* AdSupport.framework */; };
 		776122281ACAB5FB00E09679 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776122271ACAB5FB00E09679 /* SystemConfiguration.framework */; };
@@ -29,16 +25,6 @@
 		77B514991AEE28C500BE69D6 /* BFReachSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B514921AEE253200BE69D6 /* BFReachSDK.framework */; };
 		77BF261B19B0ACC400C8D519 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BF261A19B0ACC400C8D519 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5F25A0B1194B6FA000728B7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5F25A080194B6FA000728B7C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5F25A087194B6FA000728B7C;
-			remoteInfo = BFReachSDKExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5F25A088194B6FA000728B7C /* BFReachSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFReachSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,10 +41,6 @@
 		5F25A0A3194B6FA000728B7C /* BFMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFMViewController.h; sourceTree = "<group>"; };
 		5F25A0A4194B6FA000728B7C /* BFMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BFMViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5F25A0A6194B6FA000728B7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5F25A0AC194B6FA000728B7C /* BFReachSDKExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFReachSDKExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F25A0B5194B6FA000728B7C /* BFReachSDKExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFReachSDKExampleTests-Info.plist"; sourceTree = "<group>"; };
-		5F25A0B7194B6FA000728B7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5F25A0B9194B6FA000728B7C /* BFReachSDKExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFReachSDKExampleTests.m; sourceTree = "<group>"; };
 		5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		5FBF9B321954921D0071C5C9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		776122271ACAB5FB00E09679 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -86,15 +68,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F25A0A9194B6FA000728B7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F25A0B0194B6FA000728B7C /* UIKit.framework in Frameworks */,
-				5F25A0AF194B6FA000728B7C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				5F25A091194B6FA000728B7C /* BFReachSDKExample */,
-				5F25A0B3194B6FA000728B7C /* BFReachSDKExampleTests */,
 				5F25A08A194B6FA000728B7C /* Frameworks */,
 				5F25A089194B6FA000728B7C /* Products */,
 			);
@@ -112,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				5F25A088194B6FA000728B7C /* BFReachSDKExample.app */,
-				5F25A0AC194B6FA000728B7C /* BFReachSDKExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,24 +129,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5F25A0B3194B6FA000728B7C /* BFReachSDKExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				5F25A0B9194B6FA000728B7C /* BFReachSDKExampleTests.m */,
-				5F25A0B4194B6FA000728B7C /* Supporting Files */,
-			);
-			path = BFReachSDKExampleTests;
-			sourceTree = "<group>";
-		};
-		5F25A0B4194B6FA000728B7C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F25A0B5194B6FA000728B7C /* BFReachSDKExampleTests-Info.plist */,
-				5F25A0B6194B6FA000728B7C /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		77B514901AEE253200BE69D6 /* BFReachSDK.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,24 +169,6 @@
 			productReference = 5F25A088194B6FA000728B7C /* BFReachSDKExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F25A0AB194B6FA000728B7C /* BFReachSDKExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F25A0C0194B6FA000728B7C /* Build configuration list for PBXNativeTarget "BFReachSDKExampleTests" */;
-			buildPhases = (
-				5F25A0A8194B6FA000728B7C /* Sources */,
-				5F25A0A9194B6FA000728B7C /* Frameworks */,
-				5F25A0AA194B6FA000728B7C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5F25A0B2194B6FA000728B7C /* PBXTargetDependency */,
-			);
-			name = BFReachSDKExampleTests;
-			productName = BFReachSDKExampleTests;
-			productReference = 5F25A0AC194B6FA000728B7C /* BFReachSDKExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -243,11 +178,6 @@
 				CLASSPREFIX = BFM;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Beachfront Media, LLC.";
-				TargetAttributes = {
-					5F25A0AB194B6FA000728B7C = {
-						TestTargetID = 5F25A087194B6FA000728B7C;
-					};
-				};
 			};
 			buildConfigurationList = 5F25A083194B6FA000728B7C /* Build configuration list for PBXProject "BFReachSDKExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -263,7 +193,6 @@
 			projectRoot = "";
 			targets = (
 				5F25A087194B6FA000728B7C /* BFReachSDKExample */,
-				5F25A0AB194B6FA000728B7C /* BFReachSDKExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -281,14 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F25A0AA194B6FA000728B7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F25A0B8194B6FA000728B7C /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -302,23 +223,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F25A0A8194B6FA000728B7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F25A0BA194B6FA000728B7C /* BFReachSDKExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5F25A0B2194B6FA000728B7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5F25A087194B6FA000728B7C /* BFReachSDKExample */;
-			targetProxy = 5F25A0B1194B6FA000728B7C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5F25A094194B6FA000728B7C /* InfoPlist.strings */ = {
@@ -335,14 +240,6 @@
 				5F25A09E194B6FA000728B7C /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		5F25A0B6194B6FA000728B7C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F25A0B7194B6FA000728B7C /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -493,46 +390,6 @@
 			};
 			name = Release;
 		};
-		5F25A0C1194B6FA000728B7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BFReachSDKExample.app/BFReachSDKExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BFReachSDKExample/BFReachSDKExample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BFReachSDKExampleTests/BFReachSDKExampleTests-Info.plist";
-				PRODUCT_NAME = BFReachSDKExampleTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		5F25A0C2194B6FA000728B7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BFReachSDKExample.app/BFReachSDKExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BFReachSDKExample/BFReachSDKExample-Prefix.pch";
-				INFOPLIST_FILE = "BFReachSDKExampleTests/BFReachSDKExampleTests-Info.plist";
-				PRODUCT_NAME = BFReachSDKExampleTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -550,15 +407,6 @@
 			buildConfigurations = (
 				5F25A0BE194B6FA000728B7C /* Debug */,
 				5F25A0BF194B6FA000728B7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5F25A0C0194B6FA000728B7C /* Build configuration list for PBXNativeTarget "BFReachSDKExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F25A0C1194B6FA000728B7C /* Debug */,
-				5F25A0C2194B6FA000728B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
