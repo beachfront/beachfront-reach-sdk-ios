@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>877F0FBD-51ED-4365-B24F-2A2393DE90C4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BFReachSDKExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>97D0EF8A8B041D1277D96EB935DBA21E59F64363</key>
+		<string>https://github.com/beachfront/reach-sdk-ios</string>
+		<key>C34DA91D8BD061E5B4D8C35E394A1E045F69097B</key>
+		<string>https://github.com/beachfront/beachfront-reach-sdk-ios</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BFReachSDKExample/BFReachSDKExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>97D0EF8A8B041D1277D96EB935DBA21E59F64363</key>
+		<string>../../../../reach-sdk-ios</string>
+		<key>C34DA91D8BD061E5B4D8C35E394A1E045F69097B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/beachfront/beachfront-reach-sdk-ios</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C34DA91D8BD061E5B4D8C35E394A1E045F69097B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C34DA91D8BD061E5B4D8C35E394A1E045F69097B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>beachfront-reach-sdk-ios</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>97D0EF8A8B041D1277D96EB935DBA21E59F64363</string>
+			<key>IDESourceControlWCCName</key>
+			<string>reach-sdk-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

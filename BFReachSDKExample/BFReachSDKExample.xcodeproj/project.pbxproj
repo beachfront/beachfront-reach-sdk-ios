@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F25A08C194B6FA000728B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25A08B194B6FA000728B7C /* Foundation.framework */; };
+		5F25A08E194B6FA000728B7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25A08D194B6FA000728B7C /* CoreGraphics.framework */; };
+		5F25A090194B6FA000728B7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25A08F194B6FA000728B7C /* UIKit.framework */; };
+		5F25A096194B6FA000728B7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F25A094194B6FA000728B7C /* InfoPlist.strings */; };
+		5F25A098194B6FA000728B7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25A097194B6FA000728B7C /* main.m */; };
+		5F25A09C194B6FA000728B7C /* BFMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25A09B194B6FA000728B7C /* BFMAppDelegate.m */; };
+		5F25A09F194B6FA000728B7C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F25A09D194B6FA000728B7C /* Main_iPhone.storyboard */; };
+		5F25A0A5194B6FA000728B7C /* BFMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25A0A4194B6FA000728B7C /* BFMViewController.m */; };
+		5F25A0A7194B6FA000728B7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F25A0A6194B6FA000728B7C /* Images.xcassets */; };
+		5F25A0AF194B6FA000728B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25A08B194B6FA000728B7C /* Foundation.framework */; };
+		5F25A0B0194B6FA000728B7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25A08F194B6FA000728B7C /* UIKit.framework */; };
+		5F25A0B8194B6FA000728B7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F25A0B6194B6FA000728B7C /* InfoPlist.strings */; };
+		5F25A0BA194B6FA000728B7C /* BFReachSDKExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25A0B9194B6FA000728B7C /* BFReachSDKExampleTests.m */; };
+		5FBF9B2919548B990071C5C9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */; };
+		5FBF9B331954921D0071C5C9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B321954921D0071C5C9 /* AdSupport.framework */; };
+		776122281ACAB5FB00E09679 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776122271ACAB5FB00E09679 /* SystemConfiguration.framework */; };
+		77B514961AEE254300BE69D6 /* BFReachSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77B514911AEE253200BE69D6 /* BFReachSDK.bundle */; };
+		77B514971AEE254800BE69D6 /* BFIOSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77B514941AEE253B00BE69D6 /* BFIOSDK.bundle */; };
+		77B514981AEE28C200BE69D6 /* BFIOSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B514951AEE253B00BE69D6 /* BFIOSDK.framework */; };
+		77B514991AEE28C500BE69D6 /* BFReachSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B514921AEE253200BE69D6 /* BFReachSDK.framework */; };
+		77BF261B19B0ACC400C8D519 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BF261A19B0ACC400C8D519 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F25A0B1194B6FA000728B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F25A080194B6FA000728B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F25A087194B6FA000728B7C;
+			remoteInfo = BFReachSDKExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F25A088194B6FA000728B7C /* BFReachSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFReachSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F25A08B194B6FA000728B7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F25A08D194B6FA000728B7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F25A08F194B6FA000728B7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F25A093194B6FA000728B7C /* BFReachSDKExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFReachSDKExample-Info.plist"; sourceTree = "<group>"; };
+		5F25A095194B6FA000728B7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F25A097194B6FA000728B7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F25A099194B6FA000728B7C /* BFReachSDKExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFReachSDKExample-Prefix.pch"; sourceTree = "<group>"; };
+		5F25A09A194B6FA000728B7C /* BFMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFMAppDelegate.h; sourceTree = "<group>"; };
+		5F25A09B194B6FA000728B7C /* BFMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BFMAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5F25A09E194B6FA000728B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5F25A0A3194B6FA000728B7C /* BFMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFMViewController.h; sourceTree = "<group>"; };
+		5F25A0A4194B6FA000728B7C /* BFMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BFMViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5F25A0A6194B6FA000728B7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F25A0AC194B6FA000728B7C /* BFReachSDKExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFReachSDKExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F25A0B5194B6FA000728B7C /* BFReachSDKExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFReachSDKExampleTests-Info.plist"; sourceTree = "<group>"; };
+		5F25A0B7194B6FA000728B7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F25A0B9194B6FA000728B7C /* BFReachSDKExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFReachSDKExampleTests.m; sourceTree = "<group>"; };
+		5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5FBF9B321954921D0071C5C9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		776122271ACAB5FB00E09679 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		77B514911AEE253200BE69D6 /* BFReachSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BFReachSDK.bundle; sourceTree = "<group>"; };
+		77B514921AEE253200BE69D6 /* BFReachSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BFReachSDK.framework; sourceTree = "<group>"; };
+		77B514941AEE253B00BE69D6 /* BFIOSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BFIOSDK.bundle; sourceTree = "<group>"; };
+		77B514951AEE253B00BE69D6 /* BFIOSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BFIOSDK.framework; sourceTree = "<group>"; };
+		77BF261A19B0ACC400C8D519 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F25A085194B6FA000728B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B514991AEE28C500BE69D6 /* BFReachSDK.framework in Frameworks */,
+				77B514981AEE28C200BE69D6 /* BFIOSDK.framework in Frameworks */,
+				77BF261B19B0ACC400C8D519 /* MediaPlayer.framework in Frameworks */,
+				776122281ACAB5FB00E09679 /* SystemConfiguration.framework in Frameworks */,
+				5FBF9B331954921D0071C5C9 /* AdSupport.framework in Frameworks */,
+				5FBF9B2919548B990071C5C9 /* CoreTelephony.framework in Frameworks */,
+				5F25A08E194B6FA000728B7C /* CoreGraphics.framework in Frameworks */,
+				5F25A090194B6FA000728B7C /* UIKit.framework in Frameworks */,
+				5F25A08C194B6FA000728B7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F25A0A9194B6FA000728B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25A0B0194B6FA000728B7C /* UIKit.framework in Frameworks */,
+				5F25A0AF194B6FA000728B7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F25A07F194B6FA000728B7C = {
+			isa = PBXGroup;
+			children = (
+				5F25A091194B6FA000728B7C /* BFReachSDKExample */,
+				5F25A0B3194B6FA000728B7C /* BFReachSDKExampleTests */,
+				5F25A08A194B6FA000728B7C /* Frameworks */,
+				5F25A089194B6FA000728B7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F25A089194B6FA000728B7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F25A088194B6FA000728B7C /* BFReachSDKExample.app */,
+				5F25A0AC194B6FA000728B7C /* BFReachSDKExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F25A08A194B6FA000728B7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77B514931AEE253B00BE69D6 /* BFIOSDK.embeddedframework */,
+				77B514901AEE253200BE69D6 /* BFReachSDK.embeddedframework */,
+				77BF261A19B0ACC400C8D519 /* MediaPlayer.framework */,
+				5F25A08D194B6FA000728B7C /* CoreGraphics.framework */,
+				5F25A08F194B6FA000728B7C /* UIKit.framework */,
+				5F25A08B194B6FA000728B7C /* Foundation.framework */,
+				5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */,
+				5FBF9B321954921D0071C5C9 /* AdSupport.framework */,
+				776122271ACAB5FB00E09679 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F25A091194B6FA000728B7C /* BFReachSDKExample */ = {
+			isa = PBXGroup;
+			children = (
+				5F25A09A194B6FA000728B7C /* BFMAppDelegate.h */,
+				5F25A09B194B6FA000728B7C /* BFMAppDelegate.m */,
+				5F25A09D194B6FA000728B7C /* Main_iPhone.storyboard */,
+				5F25A0A3194B6FA000728B7C /* BFMViewController.h */,
+				5F25A0A4194B6FA000728B7C /* BFMViewController.m */,
+				5F25A0A6194B6FA000728B7C /* Images.xcassets */,
+				5F25A092194B6FA000728B7C /* Supporting Files */,
+			);
+			path = BFReachSDKExample;
+			sourceTree = "<group>";
+		};
+		5F25A092194B6FA000728B7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F25A093194B6FA000728B7C /* BFReachSDKExample-Info.plist */,
+				5F25A094194B6FA000728B7C /* InfoPlist.strings */,
+				5F25A097194B6FA000728B7C /* main.m */,
+				5F25A099194B6FA000728B7C /* BFReachSDKExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F25A0B3194B6FA000728B7C /* BFReachSDKExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F25A0B9194B6FA000728B7C /* BFReachSDKExampleTests.m */,
+				5F25A0B4194B6FA000728B7C /* Supporting Files */,
+			);
+			path = BFReachSDKExampleTests;
+			sourceTree = "<group>";
+		};
+		5F25A0B4194B6FA000728B7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F25A0B5194B6FA000728B7C /* BFReachSDKExampleTests-Info.plist */,
+				5F25A0B6194B6FA000728B7C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77B514901AEE253200BE69D6 /* BFReachSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				77B514911AEE253200BE69D6 /* BFReachSDK.bundle */,
+				77B514921AEE253200BE69D6 /* BFReachSDK.framework */,
+			);
+			name = BFReachSDK.embeddedframework;
+			path = ../BFReachSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		77B514931AEE253B00BE69D6 /* BFIOSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				77B514941AEE253B00BE69D6 /* BFIOSDK.bundle */,
+				77B514951AEE253B00BE69D6 /* BFIOSDK.framework */,
+			);
+			name = BFIOSDK.embeddedframework;
+			path = ../BFIOSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F25A087194B6FA000728B7C /* BFReachSDKExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F25A0BD194B6FA000728B7C /* Build configuration list for PBXNativeTarget "BFReachSDKExample" */;
+			buildPhases = (
+				5F25A084194B6FA000728B7C /* Sources */,
+				5F25A085194B6FA000728B7C /* Frameworks */,
+				5F25A086194B6FA000728B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFReachSDKExample;
+			productName = BFReachSDKExample;
+			productReference = 5F25A088194B6FA000728B7C /* BFReachSDKExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F25A0AB194B6FA000728B7C /* BFReachSDKExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F25A0C0194B6FA000728B7C /* Build configuration list for PBXNativeTarget "BFReachSDKExampleTests" */;
+			buildPhases = (
+				5F25A0A8194B6FA000728B7C /* Sources */,
+				5F25A0A9194B6FA000728B7C /* Frameworks */,
+				5F25A0AA194B6FA000728B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F25A0B2194B6FA000728B7C /* PBXTargetDependency */,
+			);
+			name = BFReachSDKExampleTests;
+			productName = BFReachSDKExampleTests;
+			productReference = 5F25A0AC194B6FA000728B7C /* BFReachSDKExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F25A080194B6FA000728B7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BFM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Beachfront Media, LLC.";
+				TargetAttributes = {
+					5F25A0AB194B6FA000728B7C = {
+						TestTargetID = 5F25A087194B6FA000728B7C;
+					};
+				};
+			};
+			buildConfigurationList = 5F25A083194B6FA000728B7C /* Build configuration list for PBXProject "BFReachSDKExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F25A07F194B6FA000728B7C;
+			productRefGroup = 5F25A089194B6FA000728B7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F25A087194B6FA000728B7C /* BFReachSDKExample */,
+				5F25A0AB194B6FA000728B7C /* BFReachSDKExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F25A086194B6FA000728B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B514971AEE254800BE69D6 /* BFIOSDK.bundle in Resources */,
+				77B514961AEE254300BE69D6 /* BFReachSDK.bundle in Resources */,
+				5F25A0A7194B6FA000728B7C /* Images.xcassets in Resources */,
+				5F25A09F194B6FA000728B7C /* Main_iPhone.storyboard in Resources */,
+				5F25A096194B6FA000728B7C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F25A0AA194B6FA000728B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25A0B8194B6FA000728B7C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F25A084194B6FA000728B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25A0A5194B6FA000728B7C /* BFMViewController.m in Sources */,
+				5F25A09C194B6FA000728B7C /* BFMAppDelegate.m in Sources */,
+				5F25A098194B6FA000728B7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F25A0A8194B6FA000728B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25A0BA194B6FA000728B7C /* BFReachSDKExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F25A0B2194B6FA000728B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F25A087194B6FA000728B7C /* BFReachSDKExample */;
+			targetProxy = 5F25A0B1194B6FA000728B7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F25A094194B6FA000728B7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F25A095194B6FA000728B7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F25A09D194B6FA000728B7C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F25A09E194B6FA000728B7C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5F25A0B6194B6FA000728B7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F25A0B7194B6FA000728B7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F25A0BB194B6FA000728B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		5F25A0BC194B6FA000728B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F25A0BE194B6FA000728B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BFReachSDKExample",
+					"$(PROJECT_DIR)/BFIOSDK.embeddedframework/**",
+					"$(PROJECT_DIR)/BFReachSDK.embeddedframework/**",
+					"/Users/viktor/Documents/Projects/beachfront-reach-sdk-ios/BFIOSDK.embeddedframework",
+					"/Users/viktor/Documents/Projects/beachfront-reach-sdk-ios/BFReachSDK.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFReachSDKExample/BFReachSDKExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/BFReachSDKExample/BFReachSDK.framework",
+					"$(SRCROOT)/../BFReachSDK",
+				);
+				INFOPLIST_FILE = "BFReachSDKExample/BFReachSDKExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = BFReachSDKExample;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F25A0BF194B6FA000728B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BFReachSDKExample",
+					"$(PROJECT_DIR)/BFIOSDK.embeddedframework/**",
+					"$(PROJECT_DIR)/BFReachSDK.embeddedframework/**",
+					"/Users/viktor/Documents/Projects/beachfront-reach-sdk-ios/BFIOSDK.embeddedframework",
+					"/Users/viktor/Documents/Projects/beachfront-reach-sdk-ios/BFReachSDK.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFReachSDKExample/BFReachSDKExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/BFReachSDKExample/BFReachSDK.framework",
+					"$(SRCROOT)/../BFReachSDK",
+				);
+				INFOPLIST_FILE = "BFReachSDKExample/BFReachSDKExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = BFReachSDKExample;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F25A0C1194B6FA000728B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BFReachSDKExample.app/BFReachSDKExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFReachSDKExample/BFReachSDKExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BFReachSDKExampleTests/BFReachSDKExampleTests-Info.plist";
+				PRODUCT_NAME = BFReachSDKExampleTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5F25A0C2194B6FA000728B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BFReachSDKExample.app/BFReachSDKExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFReachSDKExample/BFReachSDKExample-Prefix.pch";
+				INFOPLIST_FILE = "BFReachSDKExampleTests/BFReachSDKExampleTests-Info.plist";
+				PRODUCT_NAME = BFReachSDKExampleTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F25A083194B6FA000728B7C /* Build configuration list for PBXProject "BFReachSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F25A0BB194B6FA000728B7C /* Debug */,
+				5F25A0BC194B6FA000728B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F25A0BD194B6FA000728B7C /* Build configuration list for PBXNativeTarget "BFReachSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F25A0BE194B6FA000728B7C /* Debug */,
+				5F25A0BF194B6FA000728B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F25A0C0194B6FA000728B7C /* Build configuration list for PBXNativeTarget "BFReachSDKExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F25A0C1194B6FA000728B7C /* Debug */,
+				5F25A0C2194B6FA000728B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F25A080194B6FA000728B7C /* Project object */;
+}
