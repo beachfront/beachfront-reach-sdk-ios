@@ -31,7 +31,10 @@ REACH is a next generation syndication platform for video. REACH enables a trans
 	- SystemConfiguration.framework
 
 6. In your Build Settings add the flag "-ObjC" to your "Other Linker Flags" entry.
-7. Import the framework header (<BFReachSDK/BFReachSDK.h>) in your app.
+7. Import the framework header ("BFReachSDK/BFReachSDK.h") in your app.
+```
+#import <BFReachSDK/BFReachSDK.h>
+```
 
 ## Starting REACH
 Get BFReach ViewController and push it. Use the **startWithPlayerId** method:
