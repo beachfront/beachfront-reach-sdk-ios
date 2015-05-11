@@ -3,7 +3,7 @@ Beachfront reach iOS SDK
 
 ## Guide
 
-REACH is a next generation syndication platform for video. REACH enables a transparent content exchange between content owners, publishers, and advertisers. This document shows you how to integrate REACH into your iOS app.
+REACH is a next generation [syndication platform for video](http://www.beachfrontreach.com/). REACH enables a transparent content exchange between content owners, publishers, and advertisers. This document shows you how to integrate REACH into your iOS app.
 
 ## What You'll Need
 
