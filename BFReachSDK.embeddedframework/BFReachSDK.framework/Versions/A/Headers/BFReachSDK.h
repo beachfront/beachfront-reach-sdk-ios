@@ -19,8 +19,4 @@
  */
 - (void) startWithPlayerId:(NSString*)playerId success:( void(^)(UIViewController *controller))success failure:(void (^)(NSError *error))failure;
 
-- (void) getCategoriesByPlayerID:(NSString*)playerID success:( void(^)(NSDictionary* result))success failure:(void (^)(NSError *error))failure;
-
-- (void) getChannelVideosWithChannels:(NSArray*)numChannels page:(NSInteger)nextPage success:( void(^)(NSDictionary* videoInfo))success failure:(void (^)(NSError *error))failure;
-
 @end

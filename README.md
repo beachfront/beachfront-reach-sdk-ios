@@ -9,19 +9,17 @@ REACH is a next generation [syndication platform for video](http://www.beachfron
 
 * REACH embeded id - [Get it from here](http://www.beachfrontreach.com/)
 * REACH iOS SDK - [Get it from here](https://github.com/beachfront/beachfront-reach-sdk-ios/tree/master/BFReachSDK.embeddedframework)
-* IO iOS SDK - [Get it from here](https://github.com/beachfront/beachfront-io-ios-sdk)
 
 ## Supported Platforms
 * iOS 6.0 or above
 
 ## Installing the SDK
 1. [Get embeded id](http://www.beachfrontreach.com/) if you don't already have one.
-2. Download the SDKs and drag-drop the BFReachSDK.embeddedframework and BFIOSDK.embeddedframework into your Xcode project folder. 
-3. In the "Build Phases" section of your project target, navigate to "Copy Bundle Resources" and make sure 'BFReachSDK.bundle' and 'BFIOSDK.bundle' is listed. If not, find it under the Resources folder and drag it in.
-4. In the "Build Phases" section of your project target, navigate to "Link Binary with Libraries" and add the BFReachSDK.framework and BFIOSDK.framework to the list (if not already there).
+2. Download the SDK and drag-drop the BFReachSDK.embeddedframework into your Xcode project folder. 
+3. In the "Build Phases" section of your project target, navigate to "Copy Bundle Resources" and make sure 'BFReachSDK.bundle' is listed. If not, find it under the Resources folder and drag it in.
+4. In the "Build Phases" section of your project target, navigate to "Link Binary with Libraries" and add the BFReachSDK.framework to the list (if not already there).
 5. Check following frameworks in the "Link Binary With Libraries" panel:
 	- **BFReachSDK.framework**
-	- **BFIOSDK.framework**
 	- MediaPlayer.framework
 	- CoreGraphics.framework
 	- UIKit.framework

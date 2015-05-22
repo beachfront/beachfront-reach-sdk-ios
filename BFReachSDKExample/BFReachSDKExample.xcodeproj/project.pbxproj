@@ -20,8 +20,6 @@
 		5FBF9B331954921D0071C5C9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B321954921D0071C5C9 /* AdSupport.framework */; };
 		776122281ACAB5FB00E09679 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776122271ACAB5FB00E09679 /* SystemConfiguration.framework */; };
 		77B514961AEE254300BE69D6 /* BFReachSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77B514911AEE253200BE69D6 /* BFReachSDK.bundle */; };
-		77B514971AEE254800BE69D6 /* BFIOSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77B514941AEE253B00BE69D6 /* BFIOSDK.bundle */; };
-		77B514981AEE28C200BE69D6 /* BFIOSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B514951AEE253B00BE69D6 /* BFIOSDK.framework */; };
 		77B514991AEE28C500BE69D6 /* BFReachSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B514921AEE253200BE69D6 /* BFReachSDK.framework */; };
 		77BF261B19B0ACC400C8D519 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BF261A19B0ACC400C8D519 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
@@ -46,8 +44,6 @@
 		776122271ACAB5FB00E09679 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		77B514911AEE253200BE69D6 /* BFReachSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BFReachSDK.bundle; sourceTree = "<group>"; };
 		77B514921AEE253200BE69D6 /* BFReachSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BFReachSDK.framework; sourceTree = "<group>"; };
-		77B514941AEE253B00BE69D6 /* BFIOSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BFIOSDK.bundle; sourceTree = "<group>"; };
-		77B514951AEE253B00BE69D6 /* BFIOSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BFIOSDK.framework; sourceTree = "<group>"; };
 		77BF261A19B0ACC400C8D519 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -57,7 +53,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B514991AEE28C500BE69D6 /* BFReachSDK.framework in Frameworks */,
-				77B514981AEE28C200BE69D6 /* BFIOSDK.framework in Frameworks */,
 				77BF261B19B0ACC400C8D519 /* MediaPlayer.framework in Frameworks */,
 				776122281ACAB5FB00E09679 /* SystemConfiguration.framework in Frameworks */,
 				5FBF9B331954921D0071C5C9 /* AdSupport.framework in Frameworks */,
@@ -91,7 +86,6 @@
 		5F25A08A194B6FA000728B7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				77B514931AEE253B00BE69D6 /* BFIOSDK.embeddedframework */,
 				77B514901AEE253200BE69D6 /* BFReachSDK.embeddedframework */,
 				77BF261A19B0ACC400C8D519 /* MediaPlayer.framework */,
 				5F25A08D194B6FA000728B7C /* CoreGraphics.framework */,
@@ -137,16 +131,6 @@
 			);
 			name = BFReachSDK.embeddedframework;
 			path = ../BFReachSDK.embeddedframework;
-			sourceTree = "<group>";
-		};
-		77B514931AEE253B00BE69D6 /* BFIOSDK.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				77B514941AEE253B00BE69D6 /* BFIOSDK.bundle */,
-				77B514951AEE253B00BE69D6 /* BFIOSDK.framework */,
-			);
-			name = BFIOSDK.embeddedframework;
-			path = ../BFIOSDK.embeddedframework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B514971AEE254800BE69D6 /* BFIOSDK.bundle in Resources */,
 				77B514961AEE254300BE69D6 /* BFReachSDK.bundle in Resources */,
 				5F25A0A7194B6FA000728B7C /* Images.xcassets in Resources */,
 				5F25A09F194B6FA000728B7C /* Main_iPhone.storyboard in Resources */,
