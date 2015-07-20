@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C34DA91D8BD061E5B4D8C35E394A1E045F69097B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "97D0EF8A8B041D1277D96EB935DBA21E59F64363" : 0,
+    "C34DA91D8BD061E5B4D8C35E394A1E045F69097B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "877F0FBD-51ED-4365-B24F-2A2393DE90C4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "97D0EF8A8B041D1277D96EB935DBA21E59F64363" : "reach-sdk-ios",
+    "C34DA91D8BD061E5B4D8C35E394A1E045F69097B" : "beachfront-reach-sdk-ios"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BFReachSDKExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BFReachSDKExample\/BFReachSDKExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/beachfront\/reach-sdk-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97D0EF8A8B041D1277D96EB935DBA21E59F64363"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/beachfront\/beachfront-reach-sdk-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C34DA91D8BD061E5B4D8C35E394A1E045F69097B"
+    }
+  ]
+}
