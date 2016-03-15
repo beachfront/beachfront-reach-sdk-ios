@@ -10,7 +10,9 @@
 #import <BFReachSDK/BFReachSDK.h>
 
 @interface BFMViewController () <UITextViewDelegate> {
-    UITextView* _textView, *_textView2;
+    UITextView* _textView, *_textView2, *_textView3;
+    
+       BFReachView* _reachView;
 }
 
 @end
@@ -21,7 +23,7 @@
 {
     [super viewDidLoad];
     
-    [self.navigationController.navigationBar setHidden:YES];
+//    [self.navigationController.navigationBar setHidden:YES];
     
 	// Do any additional setup after loading the view, typically from a nib.
     
@@ -61,7 +63,7 @@
 - (IBAction)coolVideoAction:(UIButton *)sender
 {
      [[BFReachSDK sharedManager] startWithPlayerId:_textView.text success:^(UIViewController *controller) {
-         [self.navigationController pushViewController:controller animated:YES];
+
      } failure:^(NSError *error) {
          NSLog(@"startWithPlayerId error: %@", error);
      }];
@@ -70,10 +72,14 @@
 - (IBAction)coolVideoAction2:(UIButton *)sender
 {
     [[BFReachSDK sharedManager] startWithPlayerId:_textView2.text success:^(UIViewController *controller) {
-        [self.navigationController pushViewController:controller animated:YES];
+       
     } failure:^(NSError *error) {
         NSLog(@"startWithPlayerId error: %@", error);
     }];
+}
+
+- (IBAction)reachLiteAction:(UIButton *)sender {
+
 }
 
 @end

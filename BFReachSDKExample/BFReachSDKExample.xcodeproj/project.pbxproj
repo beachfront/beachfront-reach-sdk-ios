@@ -19,6 +19,7 @@
 		5FBF9B2919548B990071C5C9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */; };
 		5FBF9B331954921D0071C5C9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B321954921D0071C5C9 /* AdSupport.framework */; };
 		776122281ACAB5FB00E09679 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776122271ACAB5FB00E09679 /* SystemConfiguration.framework */; };
+		7791A6A11C9802CF002D1853 /* BFReachLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7791A6A01C9802CF002D1853 /* BFReachLiteViewController.m */; };
 		77B514961AEE254300BE69D6 /* BFReachSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77B514911AEE253200BE69D6 /* BFReachSDK.bundle */; };
 		77B514991AEE28C500BE69D6 /* BFReachSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B514921AEE253200BE69D6 /* BFReachSDK.framework */; };
 		77BF261B19B0ACC400C8D519 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BF261A19B0ACC400C8D519 /* MediaPlayer.framework */; };
@@ -42,6 +43,8 @@
 		5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		5FBF9B321954921D0071C5C9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		776122271ACAB5FB00E09679 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7791A69F1C9802CF002D1853 /* BFReachLiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFReachLiteViewController.h; sourceTree = "<group>"; };
+		7791A6A01C9802CF002D1853 /* BFReachLiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFReachLiteViewController.m; sourceTree = "<group>"; };
 		77B514911AEE253200BE69D6 /* BFReachSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BFReachSDK.bundle; sourceTree = "<group>"; };
 		77B514921AEE253200BE69D6 /* BFReachSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BFReachSDK.framework; sourceTree = "<group>"; };
 		77BF261A19B0ACC400C8D519 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -106,6 +109,8 @@
 				5F25A09D194B6FA000728B7C /* Main_iPhone.storyboard */,
 				5F25A0A3194B6FA000728B7C /* BFMViewController.h */,
 				5F25A0A4194B6FA000728B7C /* BFMViewController.m */,
+				7791A69F1C9802CF002D1853 /* BFReachLiteViewController.h */,
+				7791A6A01C9802CF002D1853 /* BFReachLiteViewController.m */,
 				5F25A0A6194B6FA000728B7C /* Images.xcassets */,
 				5F25A092194B6FA000728B7C /* Supporting Files */,
 			);
@@ -202,6 +207,7 @@
 			files = (
 				5F25A0A5194B6FA000728B7C /* BFMViewController.m in Sources */,
 				5F25A09C194B6FA000728B7C /* BFMAppDelegate.m in Sources */,
+				7791A6A11C9802CF002D1853 /* BFReachLiteViewController.m in Sources */,
 				5F25A098194B6FA000728B7C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +318,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BFReachSDKExample",
@@ -347,6 +354,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BFReachSDKExample",
