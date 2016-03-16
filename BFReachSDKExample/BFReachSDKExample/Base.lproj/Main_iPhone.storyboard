@@ -5,56 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--BFReachSDK Demo-->
-        <scene sceneID="ufC-wZ-h7g">
-            <objects>
-                <viewController id="vXZ-lx-hvc" customClass="BFMViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kPx-gl-8Y1">
-                                <rect key="frame" x="0.0" y="152" width="320" height="34"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Run Reach (#1)">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="coolVideoAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6pG-5U-Xzd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="onS-T9-GLx">
-                                <rect key="frame" x="0.0" y="326" width="320" height="34"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Run Reach (#2)">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="coolVideoAction2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wJc-RF-V7p"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j1U-1v-dlC">
-                                <rect key="frame" x="115" y="462" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Reach LITE"/>
-                                <connections>
-                                    <action selector="reachLiteAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4ZO-RE-UT4"/>
-                                    <segue destination="bw3-Ng-fsC" kind="push" id="Dh6-U9-9sp"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="BFReachSDK Demo" id="Wbk-v2-XIF"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="601" y="-4"/>
-        </scene>
         <!--Reach Lite View Controller-->
         <scene sceneID="M1L-pg-8tq">
             <objects>
@@ -183,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kix-If-eri" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="987" y="-4"/>
+            <point key="canvasLocation" x="506" y="-4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Hps-pN-Ahq">
@@ -196,7 +146,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="CGr-RN-zt8"/>
+                        <segue destination="bw3-Ng-fsC" kind="relationship" relationship="rootViewController" id="fWS-8R-2OD"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AoU-4A-vsU" userLabel="First Responder" sceneMemberID="firstResponder"/>

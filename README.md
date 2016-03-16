@@ -33,27 +33,6 @@ Getting Started
 ```
 
 
-
-## Starting REACH (classic)
-
-Show BFReach window by **startWithPlayerId** method:
-
-```
-[[BFReachSDK sharedManager] startWithPlayerId:@"YOUR_REACH_ID_HERE" 
-	    success:^(UIViewController *controller)
-	{
-
-    }
-        failure:^(NSError *error)
-    {
-	    NSLog(@"BFReachSDK error: %@", error);
-	}
-];
-```
-
-Here, **YOUR_REACH_ID_HERE** is “embeded id” in String format.
-
-
 ## Using BFReach player (inline)
 
 ###Create BFReachView instance:

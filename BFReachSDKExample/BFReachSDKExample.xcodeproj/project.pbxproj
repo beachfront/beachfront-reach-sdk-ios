@@ -14,7 +14,6 @@
 		5F25A098194B6FA000728B7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25A097194B6FA000728B7C /* main.m */; };
 		5F25A09C194B6FA000728B7C /* BFMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25A09B194B6FA000728B7C /* BFMAppDelegate.m */; };
 		5F25A09F194B6FA000728B7C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F25A09D194B6FA000728B7C /* Main_iPhone.storyboard */; };
-		5F25A0A5194B6FA000728B7C /* BFMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25A0A4194B6FA000728B7C /* BFMViewController.m */; };
 		5F25A0A7194B6FA000728B7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F25A0A6194B6FA000728B7C /* Images.xcassets */; };
 		5FBF9B2919548B990071C5C9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */; };
 		5FBF9B331954921D0071C5C9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B321954921D0071C5C9 /* AdSupport.framework */; };
@@ -37,8 +36,6 @@
 		5F25A09A194B6FA000728B7C /* BFMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFMAppDelegate.h; sourceTree = "<group>"; };
 		5F25A09B194B6FA000728B7C /* BFMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BFMAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5F25A09E194B6FA000728B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		5F25A0A3194B6FA000728B7C /* BFMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFMViewController.h; sourceTree = "<group>"; };
-		5F25A0A4194B6FA000728B7C /* BFMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BFMViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5F25A0A6194B6FA000728B7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		5FBF9B321954921D0071C5C9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -107,8 +104,6 @@
 				5F25A09A194B6FA000728B7C /* BFMAppDelegate.h */,
 				5F25A09B194B6FA000728B7C /* BFMAppDelegate.m */,
 				5F25A09D194B6FA000728B7C /* Main_iPhone.storyboard */,
-				5F25A0A3194B6FA000728B7C /* BFMViewController.h */,
-				5F25A0A4194B6FA000728B7C /* BFMViewController.m */,
 				7791A69F1C9802CF002D1853 /* BFReachLiteViewController.h */,
 				7791A6A01C9802CF002D1853 /* BFReachLiteViewController.m */,
 				5F25A0A6194B6FA000728B7C /* Images.xcassets */,
@@ -205,7 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F25A0A5194B6FA000728B7C /* BFMViewController.m in Sources */,
 				5F25A09C194B6FA000728B7C /* BFMAppDelegate.m in Sources */,
 				7791A6A11C9802CF002D1853 /* BFReachLiteViewController.m in Sources */,
 				5F25A098194B6FA000728B7C /* main.m in Sources */,

@@ -31,14 +31,6 @@ extern NSString * const BFReachExitFullscreenNotification;  // exit fullscreen
 
 + (instancetype)sharedManager;
 
-/**
- Return the Reach UIViewController
- @param playerId The Reach App ID
- @param success The Reach UIViewController
- */
-- (void) startWithPlayerId:(NSString*)playerId success:( void(^)(UIViewController *controller))success failure:(void (^)(NSError *error))failure;
-- (void) startWithPlayerId:(NSString*)playerId contributorID:(NSString*)contributorID videoID:(NSString*)videoID success:( void(^)(UIViewController *controller))success failure:(void (^)(NSError *error))failure;
-
 + (void) getReachViewInView:(UIView*)view
                     inRect:(CGRect)rect
                       AppID:(NSString *)appID
