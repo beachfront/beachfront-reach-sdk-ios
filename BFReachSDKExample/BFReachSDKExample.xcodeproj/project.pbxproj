@@ -18,6 +18,8 @@
 		5FBF9B2919548B990071C5C9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */; };
 		5FBF9B331954921D0071C5C9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF9B321954921D0071C5C9 /* AdSupport.framework */; };
 		776122281ACAB5FB00E09679 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776122271ACAB5FB00E09679 /* SystemConfiguration.framework */; };
+		7762E1011D0EEC4300251210 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7762E1001D0EEC4300251210 /* libc++.tbd */; };
+		7762E1031D0EEC4900251210 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7762E1021D0EEC4900251210 /* libz.tbd */; };
 		7791A6A11C9802CF002D1853 /* BFReachLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7791A6A01C9802CF002D1853 /* BFReachLiteViewController.m */; };
 		77B514961AEE254300BE69D6 /* BFReachSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77B514911AEE253200BE69D6 /* BFReachSDK.bundle */; };
 		77B514991AEE28C500BE69D6 /* BFReachSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B514921AEE253200BE69D6 /* BFReachSDK.framework */; };
@@ -40,6 +42,9 @@
 		5FBF9B2819548B990071C5C9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		5FBF9B321954921D0071C5C9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		776122271ACAB5FB00E09679 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7762E0FE1D0EDFE300251210 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7762E1001D0EEC4300251210 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7762E1021D0EEC4900251210 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		7791A69F1C9802CF002D1853 /* BFReachLiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFReachLiteViewController.h; sourceTree = "<group>"; };
 		7791A6A01C9802CF002D1853 /* BFReachLiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFReachLiteViewController.m; sourceTree = "<group>"; };
 		77B514911AEE253200BE69D6 /* BFReachSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BFReachSDK.bundle; sourceTree = "<group>"; };
@@ -52,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7762E1031D0EEC4900251210 /* libz.tbd in Frameworks */,
+				7762E1011D0EEC4300251210 /* libc++.tbd in Frameworks */,
 				77B514991AEE28C500BE69D6 /* BFReachSDK.framework in Frameworks */,
 				77BF261B19B0ACC400C8D519 /* MediaPlayer.framework in Frameworks */,
 				776122281ACAB5FB00E09679 /* SystemConfiguration.framework in Frameworks */,
@@ -86,6 +93,9 @@
 		5F25A08A194B6FA000728B7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7762E1021D0EEC4900251210 /* libz.tbd */,
+				7762E1001D0EEC4300251210 /* libc++.tbd */,
+				7762E0FE1D0EDFE300251210 /* CoreLocation.framework */,
 				77B514901AEE253200BE69D6 /* BFReachSDK.embeddedframework */,
 				77BF261A19B0ACC400C8D519 /* MediaPlayer.framework */,
 				5F25A08D194B6FA000728B7C /* CoreGraphics.framework */,
@@ -330,7 +340,8 @@
 					"$(SRCROOT)/../BFReachSDK",
 				);
 				INFOPLIST_FILE = "BFReachSDKExample/BFReachSDKExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../reach-ios-sdk/BFReachSDK/BFReachSDK/GVRSDK/Libraries";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = BFReachSDKExample;
@@ -366,7 +377,8 @@
 					"$(SRCROOT)/../BFReachSDK",
 				);
 				INFOPLIST_FILE = "BFReachSDKExample/BFReachSDKExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../reach-ios-sdk/BFReachSDK/BFReachSDK/GVRSDK/Libraries";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = BFReachSDKExample;
 				PROVISIONING_PROFILE = "";

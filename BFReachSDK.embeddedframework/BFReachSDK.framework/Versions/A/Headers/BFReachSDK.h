@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+
+#if !TARGET_OS_TV
 #import <BFReachSDK/BFReachView.h>
+#else
+#import "BFReachView.h"
+#endif
+
 
 // ad notifications
 extern NSString * const BFReachAdStartedNotification;       // ad started
@@ -40,5 +46,6 @@ extern NSString * const BFReachExitFullscreenNotification;  // exit fullscreen
                     success:(void (^)(BFReachView* reachView))success
                     failure:(void (^)(NSError *error))failure;
 
+- (void)startWithPlayerId:(NSString*)playerId success:( void(^)(UIViewController *controller))success failure:(void (^)(NSError *error))failure;
 
 @end
